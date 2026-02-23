@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tweeter</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <img src="images/logo.png" alt="Tweeter Logo">
+      <h1>Tweeter</h1>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <div class="tweetWriteSection">
+        <div class="alignProfileWriteSection">
+          <img src="./images/profileImage.png" alt="Profile Image">
+          <textarea class="tweetArea" placeholder="What's happening?"></textarea>
+        </div>
+        <div class="tweetButtonSection">
+          <label id="charRemaining" class="charRemaining">160 char remaining</label>
+          <button class="tweetButton">Tweet</button>
+        </div>
+      </div>
+
+      <hr>
+      </hr>
+
+      <div class="tweetCommentSection">
+        <img src="./images/profileImage.png" alt="Profile Image">
+        <div class="alignProfileCommentSection">
+          <p><strong>Carlos Perez</strong> <span class="username">@carlos.utrgv - 7hr</span></p>
+          <p>Hello everyone!</p>
+        </div>
+      </div>
+      <div class="icons">
+        <span><i class="fa-regular fa-comment"></i> 1</span>
+        <i class="fa-solid fa-retweet"></i> 
+        <span><i class="fa-regular fa-heart"></i> 8</span>
+        <i class="fa-solid fa-arrow-up-from-bracket"></i>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,145 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  gap: 1rem;
+}
+
+nav h1 {
+  color: #1da1f2;
+}
+
+body {
+  margin: 0;
+  background-color: #f3f8ff;
+}
+
+img {
+  width: 3rem;
+  height: 3rem;
+}
+
+main section {
+  margin: 2rem auto;
+  max-width: 37.5rem;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 1%;
+}
+
+main .alignProfileWriteSection {
+  display: flex;
+  gap: 0.625rem;
+  padding-bottom: 0.625rem;
+}
+
+main .alignProfileWriteSection img {
+  padding-top: 0.625rem;
+  padding-left: 0.625rem;
+
+}
+
+main .alignProfileWriteSection label {
+  color: gray;
+}
+
+main .alignProfileWriteSection textarea {
+  width: 100%;
+  height: 5rem;
+  border: none;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  font-size: 1rem;
+  outline: none;
+  resize: none;
+}
+
+main .alignProfileWriteSection textarea::placeholder {
+  font-size: 1rem;
+}
+
+main .tweetButtonSection {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.3125rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+main .tweetButtonSection .tweetButton {
+  border-radius: 0.938rem;
+  border: none;
+  background-color: #1ea1ff;
+  color: white;
+  padding: 0.375rem 0.813rem;
+  font-size: 0.813rem;
+}
+
+main .tweetButtonSection .tweetButton:hover {
+  background-color: #1a91da;
+}
+
+main .tweetButtonSection .tweetButton:active {
+  background-color: #1681bf;
+}
+
+main .tweetButtonSection .charRemaining {
+  font-size: 0.938rem;
+}
+
+main hr {
+  margin: 0.625rem 0 0 0;
+}
+
+main .tweetCommentSection {
+  display: flex;
+  gap: 0.625rem;
+  padding-bottom: 2rem;
+}
+
+main .tweetCommentSection img {
+  padding-top: 0.625rem;
+  padding-left: 0.625rem;
+}
+
+main .alignProfileCommentSection {
+  display: flex-start;
+  align-items: center;
+  gap: 0.625rem;
+  margin-top: 0.875rem
+}
+
+main .alignProfileCommentSection p {
+  margin: 0px 0px 0.125rem 0px;
+}
+
+main .tweetCommentSection .username {
+  color: gray;
+}
+
+main.tweetCommentSection .tweetCommentButtons {
+  margin: 10% 0% 5% 0%;
+  display: inline-block;
+  gap: 0.625rem;
+}
+
+main .icons {
+  color: #a3b0ba;
+  display: flex;
+  justify-content: space-around;
+
+  padding-bottom: 0.125rem;
+  font-size: 0.938rem
+}
+
+main .tweetButtonSection .tweetButton:disabled {
+  background-color: #8dd0f7;
+}
