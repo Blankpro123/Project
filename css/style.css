@@ -136,7 +136,7 @@ main .icons {
   display: flex;
   justify-content: space-around;
 
-  padding-bottom: 0.125rem;
+  padding-bottom: 1rem;
   font-size: 0.938rem
 }
 
